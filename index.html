@@ -8,18 +8,20 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Hello, world!</title>
+    <title>Legendary Sports</title>
   </head>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+
+  <!-- Nav Bar -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#"><img src="/images/nav_logo.gif" alt="text 'Adam Wiatros' in front of spinning atomic design" class="nav-logo"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#top">Overview <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Research</a>
@@ -42,8 +44,282 @@
       </ul>
     </div>
   </nav>
+
+  <!-- Introduction -->
+
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container intro" id="top">
+      <div class="row d-flex align-items-center justify-content-between hero">
+        <div class="col title">
+          <h1 class="h1">Legendary Sports</h1>
+          <p class="h2">A mobile app connecting adult users to recreational sports teams in their area</h2>
+        </div>
+        <div class="col thumb">
+          <img src="/images/Thumbnail.png" alt="mobile app screens displayed as diagonal tiles">
+        </div>
+      </div>
+      <div class="container-fluid intro-text">
+        <p class="h3">Project Summary</p>
+        <p class="body">Legendary sports is an app designed to allow adult users to locate, communicate with, and join local recreation teams in their area. Working with a small design team, I conceptualized and designed a mobile app, including initial idea brainstorming, user interviews, wireframing, user testing, and building a high-fidelity prototype.</p>
+        <p class="h3">My Team</p>
+        <p class="body">My team consisted of three other designers and myself.</p>
+        <p class="h3">My Roles</p>
+        <div class="row roles">
+          <div class="col-lg-3 col-md-6 col-sm-12 role">
+            <p class="h6">Project Manager</p>
+            <p class="body">In my role as Project Manager, I supervised three other designers. We shared design responsibilities on this project, but I performed daily checkins, delegated tasks, and maintained our group Trello board.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 role">
+            <p class="h6">US Researcher</p>
+            <p class="body">As a UX Researcher, I worked with my team to develop interview and survey questions and drafted our research plan. I conducted one of the interviews we used to develop our user persona, as well as two of our user tests.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 role">
+            <p class="h6">UX Designer</p>
+            <p class="body">As UX Designer, I sketched one set of wireframes that we used to develop our low-fidelity wireframe. I created the overlays in our wireframe and checked all of our frames for symmetry, content, color, style, and interactions.</p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 role">
+            <p class="h6">UX Writer</p>
+            <p class="body">As UX Writer, I wrote the copy for much of our prototype, including the team information, event information, password reset dialog, and team announcements.</p>
+          </div>
+        </div>
+      </div>
+      <p class="h3">Design Process</p>
+      <img class="design" src="/images/process.png">
+    </div>
+
+    <!-- Research -->
+
+    <div class="container-fluid subheader">Research</div>
+    <div class="container research">
+      <div class="row d-flex align-items-center justify-content-between hero">
+        <div class="col research-text">
+          <h1 class="h3">User Interviews</h1>
+          <p class="body">We conducted five one-on-one user interviews remotely via Zoom to collect qualitative data from participants. We specifically sought out individuals over the age of 18 who had some history of playing a team sport, since our app would be targeted specifically towards adults who were trying to find local rec teams outside of a professional, high school, or college setting.</p>
+          <p>Following our interviews, we synthesized our notes into an affinity diagram to chart and categorize the common trends in our interview responses.</h2>
+        </div>
+        <div class="col affinity">
+          <img class="af_diagram" src="/images/Affinity.png" alt="overlaid tiles showing post-its separating survey feedbck into categories">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between hero">
+        <div class="col research-text">
+          <h1 class="h3">User Survey</h1>
+          <p class="body">In addition to our user interviews, we created a survey on Google Forms using the same questions from our interviews. We distributed the survey to our class and on social media, including to a survey exchange group with more than 19,000 members. In total, we received 37 responses.</h2>
+        </div>
+        <div class="col survey">
+          <img class="survey_pie" src="/images/Survey.png" alt="two pie charts showing 70.27% of respondents cited time as obstacle to join and 35.14% said knowing social dynamic was an important factor in deciding to join">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between hero">
+        <div class="col research-text">
+          <h1 class="h3">Competitor Analysis</h1>
+          <p class="body">We compared four different tools that connect their users to local sports to determine how their features match up to the wants and needs of our interviewees and survey respondents.</h2>
+        </div>
+        <div class="col research-graphic competitor">
+          <img class="comp_logos" src="/images/comp_analysis.png" alt="logos for sportssignupplay, instaTeam, sportsengine, and leaguelocatormn">
+        </div>
+      </div>
+    </div>
+
+    <!-- Definition -->
+
+    <div class="container-fluid subheader">Definition</div>
+    <div class="container definition">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col definition-text">
+          <p class="h3">User Persona</p>
+          <p class="body">Using the information gathered from our interviews and survey, we built a persona representing our ideal user. The persona helped guide us in developing the app by providing a clear image of the goals, needs, and frustrations we wanted to address.</p>
+          <p class="h6">Meet Michael</p>
+          <p class="body">Our target user was Michael, a 25-year-old insurance agent from Minneapolis. Michael played sports in high school and college but hasn’t been able to find a team to connect with since graduating. He’d like to get back into recreational sports to make friends and stay in shape, but needs something that fits his schedule.</p>
+          <p class="body">Michael cares a lot about knowing the vibe a group before joining, and wants to be on a team that matches his competitiveness and skill level.</p>
+        </div>
+        <div class="col persona">
+          <img class="persona_img" src="/images/Persona_image.png" alt="Man on tennis court with graphic stating 'Michael Davies, 25 years old, Minneapolis Minnesota, Insurance Agent, Lives with Roommates'">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col definition-text prob_text">
+          <p class="h3">The Big Question</p>
+          <p class="body">We observed that there isn’t a reliable source of information on local, recreational sports teams geared towards adults. For this reason, it is difficult for adults to find recreational sports leagues to join where they can socialize and get physical activity.</h2>
+        </div>
+        <div class="col problem_hmw">
+          <p class="h4 prob_statement">“How might we help adults who are looking for a recreational sport find teams that are appropriate for their age and skill level, based on surveys of new players in local recreational leagues?”</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ideation -->
+
+    <div class="container-fluid subheader">Ideation</div>
+    <div class="container ideation">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col definition-text">
+          <p class="h3">Journey Map</p>
+          <p class="body">Having created our ideal user and identified our desired impact, our next step was to chart Michael’s experience using the app.</p>
+          <p class="body">We outlined a general scenario for Michael and plotted the steps of his experience as he went from looking for a sport to join, to downloading Legendary Sports, to eventually connecting and chatting with a team.</p>
+          <p class="body">We identified two key opportunities through our user journey map:</p>
+          <ul>
+            <li class="body">Building in a schedule feature</li>
+            <li class="body">Having a chat function</li>
+          </ul>
+        </div>
+        <div class="col journey">
+          <img class="journey_map" src="/images/Journey.png" alt="journey map depicting user person and UX scenario">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col research-text">
+          <p class="h3">Feature Prioritization Matrix</p>
+          <p class="body">As we compiled the information from our affinity diagram, user survey, user persona, and journey map, we identified common patterns that we added to a feature prioritization matrix. Using the matrix, we identified key app features that would be most useful to users like Michael, including:</h2>
+          <ul>
+            <li class="body">Searching by location</li>
+            <li class="body">Filtering by skill level</li>
+            <li class="body">Team calendars</li>
+            <li class="body">Team messaging</li>
+          </ul>
+          <p class="body">To help make these features more functional, we added additional supporting features to our list:</h2>
+          <ul>
+            <li class="body">Team announcements</li>
+            <li class="body">Profile screens</li>
+            <li class="body">Team rosters</li>
+          </ul>
+        </div>
+        <div class="col p_matrix">
+          <img class="matrix_img" src="/images/Prioritization Matrix.png" alt="matrix identifying various app features based on complexity and impact">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col research-text flow_txt">
+          <p class="h3">User Flow</p>
+          <p class="body">Once we identified our key features, the next step in our design process was to build a user flow mapping how Michael would move through Legendary Sports when using the app, from onboarding, to creating a profile, to finding and joining a team, to chatting with his new teammates and viewing his match schedule.</p>
+        </div>
+        <div class="col research-graphic flow">
+          <img class="flow_img" src="/images/Flow.png" alt="diagram user flow through app">
+        </div>
+      </div>
+    </div>
+
+    <!-- Prototyping -->
+
+    <div class="container-fluid subheader">Prototyping</div>
+    <div class="container research">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col research-text">
+          <p class="h3">Sketching it Out</p>
+          <p class="body">For our initial round of wireframes, each member of the design team sketched a set of frames. We then lined the frames up to match each step in the user flow, and then used dot voting to choose which sketch we preferred for each step on the flow. We then took the sketches, recreated them, and put them into a low-fi prototype on Invision.</p>
+        </div>
+        <div class="col sketches">
+          <img class="sketches_img" src="/images/Sketches.png" alt="four wireframe sketches">
+        </div>
+      </div>
+    </div>
+
+    <!-- Testing -->
+
+    <div class="container-fluid subheader">Testing</div>
+    <div class="container testing">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col testing-text">
+          <p class="h3">Remote-Moderated User Tests</p>
+          <p class="body">Using our low-fidelity prototype in Invision, we ran a round of remote-moderated user tests on three individuals. </p>
+          <p class="body">All three of our users were able to successfully complete each of a list of three tasks with minimal questions or pain points. We received some feedback about navigation improvement and content, specifically that we needed to make buttons more prominent and make the purpose of each screen clearer.</p>
+          <p class="body">Overall, the feedback we received was largely positive. Users navigated the app easily, didn’t have any hard or confusing decisions, liked the flow, and enjoyed the idea of the app.</p>
+          <p class="body">We took the constructive feedback received during user testing and plotted it on a priority matrix to help determine how best to iterate our design.</p>
+        </div>
+        <div class="col testing_matrix">
+          <img class="test_matrix_img" src="/images/TestingMatrix.png" alt="matrix showing priority of changes for developers versus users">
+        </div>
+      </div>
+    </div>
+
+    <!-- Iteration -->
+
+    <div class="container-fluid subheader">Iteration</div>
+    <div class="container-fluid iteration-text iteration_intro">
+      <p class="h3"> Wireframe Iteration</p>
+      <p class="body">After user testing, we updated our user flow to adjust some minor navigation concerns. With the updated user flow and our user feedback as guides, we iterated our original wireframes and moved from low-fidelity to high-fidelity. We also chose to switch from an iOS style to using the Material Design Guidelines after receiving feedback that our design more closely matched themes common to the Material Design Guidelines.</p>
+    </div>
+    <div class="container iteration">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col iteration-text">
+          <p class="h4">Signup Iteration</p>
+          <p class="body">We added our logo to the signup screen, as well as password confirmation input. We changed our social media login from text buttons to round icon buttons.</p>
+        </div>
+        <div class="col iteration_img">
+          <img class="signup" src="/images/Signup_Iteration.png" alt="">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+          <div class="col iteration-text">
+            <p class="h4">Team Landing Screen</p>
+            <p class="body">We focused on maximizing space for graphics on the team page, with a large “Join Team” button and a small “Upcoming Events” tool that opens the team calendar.</p>
+          </div>
+          <div class="col iteration_img">
+            <img class="landing" src="/images/Team_Iteration.png" alt="">
+          </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+         <div class="col iteration-text">
+            <p class="h4">Team Information Screen</p>
+            <p class="body">We split the team information screen into quadrants with icons, rather than having a text-heavy team page. We also moved the “Message Team” button to the top of the team page.</p>
+         </div>
+         <div class="col iteration_img">
+          <img class="team_info" src="/images/Home-iteration.png" alt="">
+        </div>
+      </div>
+      <div class="row d-flex align-items-center justify-content-between">
+         <div class="col iteration-text style_text">
+            <p class="h3">Design Style</p>
+            <p class="body">As a team, we conceptualized a design style that we applied to our prototype. Our focus was on usability and visual appeal, with some inspiration from existing athletics-inspired styles.</p>
+            <p class="h6">Typography</p>
+            <p class="body">We decided to use Lobster in our logo for its bold, artistic style. Because of its booming popularity a decade ago, the font may remind target users of clubs, teams, businesses, and events from the last time they were able to play on a team. That nostalgia could be a solid starting point for catching the eye of a user like Michael’s.</p>
+            <p class="body">Our headings, buttons, and body text use Roboto, a strong sans serif font that is clean and readable.</p>
+            <p class="h6">Color Palette</p>
+            <p class="body">Our color palette was inspired by blue and orange, one of the most popular color schemes in sports. Blue and orange is used by teams like the Denver Broncos, Chicago Bears, and New York Knicks and Mets.</p>
+            <p class="body">We believed that featuring our color palette in our icons would also make them stand out against a neutral background.</p>
+         </div>
+         <div class="col style_img">
+          <img class="survey_pie" src="/images/palette_type.png" alt="list of typography and color palette">
+        </div>
+      </div>
+    </div>
+
+    <!--Conclusion-->
+
+    <div class="container-fluid subheader">Conclusion</div>
+    <div class="container-fluid prototype">
+      <iframe class="figma" style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="900" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F5loJ5TohormGammoPS5NrH%2FLegendary-Sports-(Mid%252FHi-Fi)%3Fpage-id%3D703%253A6092%26node-id%3D703%253A6456%26viewport%3D241%252C48%252C0.04%26scaling%3Dmin-zoom%26starting-point-node-id%3D703%253A6452" allowfullscreen></iframe>
+    </div>
+    <div class="container conclusion">
+      <div class="row d-flex align-items-center justify-content-between">
+        <div class="col conclusion-text">
+           <h1 class="h3">User Interviews</h1>
+           <p class="body">We conducted five one-on-one user interviews remotely via Zoom to collect qualitative data from participants. We specifically sought out individuals over the age of 18 who had some history of playing a team sport, since our app would be targeted specifically towards adults who were trying to find local rec teams outside of a professional, high school, or college setting.</p>
+           <p>Following our interviews, we synthesized our notes into an affinity diagram to chart and categorize the common trends in our interview responses.</h2>
+        </div>
+        <div class="col presentation">
+         <img class="zoom" src="/images/Presentation.png" alt="">
+       </div>
+     </div>
+     <div class="container-fluid conclusion-text">
+      <p class="h3">Looking Back</p>
+      <p class="body">Having completed this design studio, there are some specific things we would have done differently:</p>
+      <ul class="body">
+        <li>Due to some miscommunication on our design team between whether we were designing for iOS or using the Material Design Guidelines, our app’s overall design rests somewhere between the two. Improving overall communication would have avoided this.</li>
+        <li>Our design process would have been more efficient had we built a component library. Although our design is consistent across screens, having to recreate design elements slowed down the overall design process.</li>
+        <li>Scope creep was a definite issue for our team in this project. Given our limited time in our first design studio, it would have been better to focus on fewer features to maximize design consistency and to more thoroughly target our research.</li>
+      </ul>
+      <p class="h3">Looking Forward</p>
+      <p class="body">In the future, we hope to iterate on this design in a number of specific ways, including:</p>
+      <ul class="body">
+        <li>Developing user flows for different types of users, such as coaches, team administrators, and fans.</li>
+        <li>Researching and implementing a better way for users to join teams, rather than simply being automatically admitted.</li>
+        <li>Designing a more interactive calendar to show practices and game dates.</li>
+        <li>Including more features for showing league standings, tournament brackets, and player highlights.</li>
+        <li>Designing a way for users to connect with their friends on the app.</li>
+        <li>Designing a way for users to rate teams, similar to yelp reviews for teams.</li>
+     </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,0 +1,193 @@
+/* Global */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.subheader {
+    background-color: #09264a;
+    font: 40px/60px "Poppins", sans-serif;
+    color: white;
+    padding: 42px 5%;
+}
+
+.h1 {
+    font: 600 65px/97.5px "Poppins", sans-serif
+}
+
+.h2 {
+    font: 40px/60px "Poppins", sans-serif
+}
+
+.h3 {
+    font: 600 24px/36px "Poppins", sans-serif;
+    margin-top: 40px;
+}
+
+.h4 {
+    font: 24px/36px "Poppins", sans-serif
+}
+
+.h6 {
+    font: 500 14px/21px "Poppins", sans-serif;
+    margin-top: 24px;
+}
+/* Nav*/
+
+.navbar {
+    background-color: #09264a !important;
+    padding-left: 5%;
+}
+
+.justify-content-end {
+    padding-right: 5%;
+}
+
+.navbar-nav {
+    position: absolute;
+    bottom: 0;
+}
+
+.nav-logo {
+    height: 80px;
+ }
+
+.nav-link {
+    font: 14px/36px "Poppins", sans-serif;
+    color: white !important;
+}
+
+.nav-item {
+    margin-left: 24px;
+}
+
+/* Intro */
+
+.hero {
+    padding-top: 106px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between ;
+}
+
+.title {
+    max-height: 582px;
+    margin-bottom: 20px;
+    padding-left: 0%;
+    padding-
+}
+
+.thumb {
+    width: 50%;
+    max-height: 582px;
+    margin-bottom: 20px;
+}
+
+.design {
+   width: 100%;
+   max-width: 1200px;
+   height: auto;
+   margin-bottom: 120px;
+   left: auto;
+   right: auto;
+}
+
+/* Research */
+
+.af_diagram {
+    height: 320px;
+    width: 590px;
+}
+
+.survey_pie {
+    width: 589px;
+    height: 285px;
+}
+
+.comp_logos {
+    height: 643px;
+    width: 532px;
+    margin-bottom: 120px;
+}
+
+/* Definition */
+
+.persona_img {
+    height: 450px;
+    width: 590px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.prob_statement {
+   margin-bottom: 120px; 
+}
+
+.prob_text {
+    margin-bottom: 120px;
+}
+
+/* Ideation */
+
+.journey {
+    margin-top: 120px;
+}
+
+.matrix_img {
+    height: 591px;
+    width: 590px;
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+.flow_img {
+    max-width: 590px;
+    max-height: 163px;
+    margin-bottom: 120px;
+}
+
+.flow_txt {
+    margin-bottom: 120px
+}
+
+/* Prototyping */
+
+.sketches_img {
+    margin: 120px 0;
+    border: 1px lightgray solid;
+    width: 590px;
+    height: 298px;
+}
+
+/* Testing */
+
+.test_matrix_img {
+    margin: 120px 0 0;
+    border: 1px lightgray solid;
+}
+
+/* Iteration */
+
+.iteration_intro {
+    margin: 120px auto;
+}
+
+.iteration_img {
+    margin: 60px auto;
+}
+
+.style_img {
+    width: 590px;
+    height: 397px;
+}
+.style_text {
+    margin-bottom: 120px;
+}
+
+/* Conclusion */
+
+.prototype {
+    margin: 120px auto;
+}
